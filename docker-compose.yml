@@ -12,7 +12,7 @@ services:
     build:
       context: .
     env_file:
-      - .env
+      - .env.local
     volumes:
       - .:/app
       - /app/node_modules
@@ -34,7 +34,7 @@ services:
     hostname: postgres
     image: postgres:16
     env_file:
-      - .env
+      - .env.local
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASS}
       POSTGRES_USER: ${POSTGRES_USER}
@@ -47,28 +47,6 @@ services:
     restart: always
     networks:
       - main
-  pgadmin:
-    container_name: pgadmin_container
-    hostname: pgadmin
-    image: dpage/pgadmin4:8.2
-    environment:
-      PGADMIN_DEFAULT_EMAIL: "user@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: "0000"
-      PGADMIN_CONFIG_SERVER_MODE: "False"
-    volumes:
-      - pgadmin-data:/var/lib/pgadmin
-      - /tmp:/tmp
-    ports:
-      - 5500:80
-    restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 1G
-    networks:
-    - main
 
 volumes:
   pgdata:
-  pgadmin-data:

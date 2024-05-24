@@ -16,8 +16,8 @@ COPY . .
 
 RUN rm -rf node_modules/.cache
 RUN rm -rf dist
-# RUN npx prisma migrate dev
 RUN npx prisma generate
+# RUN npx prisma migrate dev
 
 RUN yarn build
 
