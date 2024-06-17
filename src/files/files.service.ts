@@ -28,6 +28,12 @@ export class FilesService {
         if (candidate) {
             return "File already exists";
         }
+
+        const readFileAsync = promisify(fs.readFile);
+        const existingData = await readFileAsync('./nodes/nodes.json', 'utf-8');
+
+        const lenght = existingData.length;
+        
         
         const data = await this.prisma.file.create({
             data: {
@@ -35,7 +41,7 @@ export class FilesService {
                 mediaType: file.mimetype,
             },
         });
-        await JsonConstructor.jsonConstructor(data.id, filename, file.originalname);
+        await JsonConstructor.jsonConstructor(data.id, filename, file.originalname, lenght);
         await this.appendToNodesFile(data, filename);
         return data;
     }
@@ -50,7 +56,7 @@ export class FilesService {
             const writeFileAsync = promisify(fs.writeFile);
 
             const newData = await readFileAsync(`./uploads/${filename}.json`, 'utf-8');
-            const existingData = await readFileAsync('./nodes/nodes.json', 'utf-8');            
+            const existingData = await readFileAsync('./nodes/nodes.json', 'utf-8');
 
             const newFileData: newJsonData = JSON.parse(newData)
             const newNodes = newFileData.nodes.map(node => ({
@@ -82,7 +88,13 @@ export class FilesService {
             const readFileAsync = promisify(fs.readFile);
             const existingData = await readFileAsync('./nodes/nodes.json', 'utf-8');
             const allNodes: newNode[] = JSON.parse(existingData);
-            return allNodes.find(n => n.beacon.mac === mac);
+            const node = allNodes.find(n => n.beacon.mac === mac);
+            return {
+                id: node.id,
+                mac: node.beacon.mac,
+                location: node.location,
+                name: node.name,
+            }
         } catch(e) {
             console.log(e);
         }

@@ -5,8 +5,8 @@ interface Transform {
 }
 
 interface Link {
-    source: string;
-    target: string;
+    source: any;
+    target: any;
     weight: number;
     events: string;
 }
@@ -22,14 +22,14 @@ interface State {
     mousePositionClick: MousePosition;
     menuPosition: MousePosition;
     currentFloor: number;
-    data: { nodes: Node[] }[];
+    data: { nodes: Node[], links: Link[] }[];
 }
 
 interface Node {
-    id: number;
+    id: any;
     name: string;
     mac: string;
-    isDistinct: boolean;
+    isDestinct: boolean;
     isPhantom: boolean;
     x: number;
     y: number;
@@ -72,7 +72,6 @@ interface Settings {
 export interface JsonData {
     transform: Transform;
     name: string;
-    links: Link[];
     state: State;
     plans: Plan[];
     phantomCount: number;
@@ -87,6 +86,7 @@ export interface JsonData {
 
 export interface newNode {
     id: number,
+    nodeId: any,
     name: string,
     coordinate_x: number,
     coordinate_y: number,
@@ -99,12 +99,13 @@ export interface newNode {
     text_broadcast: string,
     is_destination: boolean,
     is_phantom: boolean,
-    is_turns_verbose: boolean
+    is_turns_verbose: boolean,
+    location?: number
 }
 
 interface NewEdge {
-    start: number,
-    stop: number,
+    start: any,
+    stop: any,
     weight: number,
     text: string
 }

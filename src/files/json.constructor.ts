@@ -5,23 +5,28 @@ import { JsonData, newJsonData } from './file.dto';
 
 @Injectable()
 export class JsonConstructor {
-    static async jsonConstructor(id: number, filename: string, originalname: string) {
+
+    static async jsonConstructor(id: number, filename: string, originalname: string, length: number) {
         const readFileAsync = promisify(fs.readFile);
         const data = await readFileAsync(`./candidate/${originalname}`, 'utf8');
         const json: JsonData = JSON.parse(data);
 
-        const newJsonData = this.convertor(json, id, filename);
+        const newJsonData = this.convertor(json, id);
+
+        // Normalize edges
+        this.normalizeEdges(newJsonData);
 
         const newJsonDataString = JSON.stringify(newJsonData);
 
         fs.writeFileSync(`./uploads/${filename}.json`, newJsonDataString);
-        fs.promises.unlink(`./candidate/${originalname}`)
+        await fs.promises.unlink(`./candidate/${originalname}`);
     }
 
-    static convertor(json: JsonData, id: number, filename: string) {
+    static convertor(json: JsonData, id: number) {
 
-        const newNodes: newJsonData['nodes'] = json.state.data[0].nodes.map(node => ({
-            id: node.id,
+        const newNodes: newJsonData['nodes'] = json.state.data[0].nodes.map((node, index) => ({
+            id: index + 1,
+            nodeId: node.id,
             name: node.name,
             coordinate_x: node.x,
             coordinate_y: node.y,
@@ -32,14 +37,14 @@ export class JsonConstructor {
                 name: node.name
             },
             text_broadcast: node.broadcast,
-            is_destination: true,
+            is_destination: node.isDestinct,
             is_phantom: node.isPhantom,
-            is_turns_verbose: false,
+            is_turns_verbose: false
         }));
 
-        const newEdges: newJsonData['edges'] = json.links.map(link => ({
-            start: Number(link.source),
-            stop: Number(link.target),
+        const newEdges: newJsonData['edges'] = json.state.data[0].links.map(link => ({
+            start: link.source,
+            stop: link.target,
             weight: link.weight,
             text: link.events,
         }));
@@ -54,8 +59,22 @@ export class JsonConstructor {
             azimut: null,
         };
 
-
-
         return NewJsonData;
+    }
+
+    static normalizeEdges(data: newJsonData) {
+        const nodeIdMap = new Map<string | number, number>();
+        data.nodes.forEach(node => {
+            nodeIdMap.set(node.nodeId, node.id);
+        });
+
+        data.edges.forEach(edge => {
+            if (typeof edge.start === 'string' && nodeIdMap.has(edge.start)) {
+                edge.start = nodeIdMap.get(edge.start);
+            }
+            if (typeof edge.stop === 'string' && nodeIdMap.has(edge.stop)) {
+                edge.stop = nodeIdMap.get(edge.stop);
+            }
+        });
     }
 }
