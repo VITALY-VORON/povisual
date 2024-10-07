@@ -1,9 +1,7 @@
 version: '3.0'
-
 networks:
   main:
     driver: bridge
-
 services:
   main:
     container_name: main-povisual
@@ -12,26 +10,26 @@ services:
     build:
       context: .
     env_file:
-      - .env.local
+      - .env
     volumes:
       - .:/app
-      - /app/node_modules
     ports:
-      - 5001:5001
+      - 4200:4200
     restart: always
     command: yarn start:dev
     depends_on:
       - postgres
-    links: 
+    links:
       - postgres
     networks:
       - main
+
   postgres:
     container_name: postgres-povisual
     hostname: postgres
     image: postgres:16
     env_file:
-      - .env.local
+      - .env
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASS}
       POSTGRES_USER: ${POSTGRES_USER}

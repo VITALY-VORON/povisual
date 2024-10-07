@@ -5,7 +5,8 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.1.x", "windows"]
 }
 
 datasource db {
@@ -20,4 +21,34 @@ model file {
   mediaType String
 
   @@map("files")
+}
+
+model User {
+  id       String @id @default(uuid())
+  email    String @unique
+  password String
+  name     String
+
+  nodes Node[]
+
+  @@map("users")
+}
+
+model Node {
+  id               Int     @id @default(autoincrement())
+  name             String
+  coordinate_x     Int
+  coordinate_y     Int
+  text             String
+  text_broadcast   String
+  is_destination   Boolean
+  is_phantom       Boolean
+  is_turns_verbose Boolean
+  location         Int?
+
+  userId String?
+  user User? @relation(fields: [userId], references: [id])
+
+  @@map("nodes")
+  @@index([userId])
 }

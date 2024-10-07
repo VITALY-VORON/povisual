@@ -1,17 +1,17 @@
-import { diskStorage } from "multer";
+import { diskStorage } from 'multer';
 
 const normalizeFileName = (req, file, callback) => {
-    const fileExtName = file.originalname.split('.').pop();
+  const fileExtName = file.originalname.split('.').pop();
 
-    callback(null, `${file.originalname}`)
-}
+  callback(null, `${file.originalname}`);
+};
 
 export const fileCandidateStorage = diskStorage({
-    destination: './candidate',
-    filename: normalizeFileName
-})
+  destination: './candidate',
+  filename: normalizeFileName,
+});
 
 export const fileStorage = diskStorage({
-    destination: './uploads',
-    filename: normalizeFileName
-})
+  destination: './uploads',
+  filename: normalizeFileName,
+});
