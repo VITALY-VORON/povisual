@@ -12,7 +12,6 @@ RUN rm -rf node_modules
 RUN yarn install
 
 RUN yarn prisma generate
-RUN yarn prisma migrate dev
 
 RUN yarn build
 

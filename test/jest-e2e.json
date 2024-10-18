@@ -12,6 +12,8 @@
   },
   "moduleNameMapper": {
     "@app/utils/(.*)": "<rootDir>/../libs/utils/src/$1",
-    "@app/utils": "<rootDir>/../libs/utils/src"
+    "@app/utils": "<rootDir>/../libs/utils/src",
+    "@app/assets/(.*)": "<rootDir>/../libs/assets/src/$1",
+    "@app/assets": "<rootDir>/../libs/assets/src"
   }
 }
