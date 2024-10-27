@@ -41,6 +41,7 @@ export class NodesController {
     @Auth()
     @ApiBearerAuth()
     async edit(@Body() data: UpdateNodeDto, @CurrentUser("id") id: User["id"]) {
+        console.log(data);
         return await this.nodesService.edit(data, id);
     }
 

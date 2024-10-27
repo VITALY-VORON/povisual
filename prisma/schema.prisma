@@ -35,13 +35,8 @@ model User {
 model Node {
   id               Int     @id @default(autoincrement())
   name             String
-  coordinate_x     Int
-  coordinate_y     Int
   text             String
   text_broadcast   String
-  is_destination   Boolean
-  is_phantom       Boolean
-  is_turns_verbose Boolean
   location         Int?
 
   userId String?

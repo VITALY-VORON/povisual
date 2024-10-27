@@ -87,7 +87,7 @@ export class AuthService {
 
         if (!user) throw new NotFoundException("Пользователь не найден");
 
-        const isValidPassword = await bcrypt.compare(user.password, dto.password);
+        const isValidPassword = await bcrypt.compare(dto.password, user.password);
 
         if (!isValidPassword) throw new UnauthorizedException("Неверный email или пароль");
 

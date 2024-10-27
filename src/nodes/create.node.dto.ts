@@ -7,26 +7,11 @@ export class CreateNodeDto implements Omit<Node, "id" | "userId"> {
     @IsString()
     name: string;
     @ApiProperty()
-    @IsNumber()
-    coordinate_x: number;
-    @ApiProperty()
-    @IsNumber()
-    coordinate_y: number;
-    @ApiProperty()
     @IsString()
     text: string;
     @ApiProperty()
     @IsString()
     text_broadcast: string;
-    @ApiProperty()
-    @IsBoolean()
-    is_destination: boolean;
-    @ApiProperty()
-    @IsBoolean()
-    is_phantom: boolean;
-    @ApiProperty()
-    @IsBoolean()
-    is_turns_verbose: boolean;
     @ApiProperty()
     @IsNumber()
     location: number;
