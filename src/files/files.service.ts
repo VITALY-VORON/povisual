@@ -7,7 +7,10 @@ import { PrismaService } from "src/prisma/prisma.service";
 
 @Injectable()
 export class FilesService {
-    constructor(private prisma: PrismaService) {}
+    constructor(
+        private prisma: PrismaService,
+        private jsonConstructor: JsonConstructor,
+    ) {}
 
     async getAllFiles() {
         return this.prisma.file.findMany();
@@ -34,18 +37,14 @@ export class FilesService {
             return "File already exists";
         }
 
-        const readFileAsync = promisify(fs.readFile);
-        const existingData = await readFileAsync("./nodes/nodes.json", "utf-8");
-
-        const lenght = existingData.length;
-
         const data = await this.prisma.file.create({
             data: {
                 filename: filename,
                 mediaType: file.mimetype,
             },
         });
-        await JsonConstructor.jsonConstructor(data.id, filename, file.originalname, lenght);
+
+        await this.jsonConstructor.jsonConstructor(data.id, filename, file.originalname);
         await this.appendToNodesFile(data, filename);
         return data;
     }
@@ -87,7 +86,7 @@ export class FilesService {
                 id: id,
             },
         });
-        return fileData.filename;
+        return fileData?.filename;
     }
 
     async getNodeByMac(mac: string) {
@@ -96,12 +95,14 @@ export class FilesService {
             const existingData = await readFileAsync("./nodes/nodes.json", "utf-8");
             const allNodes: newNode[] = JSON.parse(existingData);
             const node = allNodes.find((n) => n.beacon.mac === mac);
-            return {
-                id: node.id,
-                mac: node.beacon.mac,
-                location: node.location,
-                name: node.name,
-            };
+            return node
+                ? {
+                      id: node.id,
+                      mac: node.beacon.mac,
+                      location: node.location,
+                      name: node.name,
+                  }
+                : null;
         } catch (e) {
             console.log(e);
         }
@@ -114,17 +115,17 @@ export class FilesService {
     }
 
     async deleteFileById(id: number) {
-        const { filename } = await this.prisma.file.findFirst({
+        const fileData = await this.prisma.file.findFirst({
             where: {
                 id: id,
             },
         });
 
-        if (!filename) {
+        if (!fileData?.filename) {
             return "File does not exist";
         }
 
-        fs.promises.unlink(`./uploads/${filename}.json`);
+        await fs.promises.unlink(`./uploads/${fileData.filename}.json`);
 
         const readFileAsync = promisify(fs.readFile);
         const existingData = await readFileAsync("./nodes/nodes.json", "utf-8");
@@ -132,12 +133,56 @@ export class FilesService {
 
         const updatedNodes = allNodes.filter((n) => n.beacon.id !== id);
 
-        fs.writeFileSync("./nodes/nodes.json", JSON.stringify(updatedNodes));
+        await fs.promises.writeFile("./nodes/nodes.json", JSON.stringify(updatedNodes));
 
-        return await this.prisma.file.delete({
+        return this.prisma.file.delete({
             where: {
                 id: id,
             },
         });
+    }
+
+    async getFileFromDB(id: number) {
+        const res = await this.prisma.locationFile.findUnique({
+            where: { id },
+            include: { nodes: { include: { beacon: true } }, edges: true },
+        });
+
+        const nodes = res.nodes.map((n) => {
+            return {
+                id: n.idInFile,
+                nodeId: n.nodeId,
+                name: n.name,
+                coordinate_x: n.coordinate_x,
+                coordinate_y: n.coordinate_y,
+                text: n.text,
+                beacon: { id: n.beacon.idInFile, mac: n.beacon.mac, name: n.beacon.name },
+                text_broadcast: n.text_broadcast,
+                is_destination: n.is_destination,
+                is_phantom: n.is_phantom,
+                is_turns_verbose: n.is_turns_verbose,
+            };
+        });
+
+        const edges = res.edges.map((e) => {
+            return {
+                start: e.start,
+                stop: e.stop,
+                weight: e.weight,
+                text: e.text,
+            };
+        });
+
+        const data = {
+            id: res.idInFile,
+            name: res.name,
+            text: res.text,
+            nodes: nodes,
+            edges: edges,
+            is_old_turns: res.is_old_turns,
+            azimut: res.is_old_turns,
+        };
+
+        return data;
     }
 }

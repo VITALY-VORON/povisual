@@ -13,7 +13,14 @@ import {
 } from "@nestjs/common";
 import { FilesService } from "./files.service";
 import { FileInterceptor } from "@nestjs/platform-express";
-import { ApiBody, ApiConsumes, ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
+import {
+    ApiBody,
+    ApiConsumes,
+    ApiOperation,
+    ApiParam,
+    ApiResponse,
+    ApiTags,
+} from "@nestjs/swagger";
 import { fileCandidateStorage } from "./store";
 import * as path from "path";
 import { Response } from "express";
@@ -153,7 +160,7 @@ export class FilesController {
         summary: "Get node by mac",
         description: "Enter mac like '00:00:00:00:00:00'",
     })
-    async getNodeByMac(@Param("mac") mac: string, req: Request) {
+    async getNodeByMac(@Param("mac") mac: string) {
         return this.filesService.getNodeByMac(mac);
     }
 
@@ -170,5 +177,17 @@ export class FilesController {
     })
     async deleteFileById(@Param("id") id: number) {
         return this.filesService.deleteFileById(+id);
+    }
+
+    @Get("location/:id")
+    @ApiOperation({ summary: "Get file from database file" })
+    @ApiParam({
+        name: "id",
+        description: "File ID",
+        type: "number",
+        required: true,
+    })
+    async getFileFromDB(@Param("id") id: number) {
+        return this.filesService.getFileFromDB(+id);
     }
 }

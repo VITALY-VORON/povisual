@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "edge_files" ALTER COLUMN "weight" SET DATA TYPE DOUBLE PRECISION;

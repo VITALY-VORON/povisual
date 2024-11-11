@@ -9,41 +9,118 @@ datasource db {
   relationMode = "prisma"
 }
 
-model file {
-  id        Int    @id @default(autoincrement())
-  filename  String
-  mediaType String
+model File {
+  id             Int           @id @default(autoincrement())
+  filename       String
+  mediaType      String
+  locationFile   LocationFile?  @relation("FileToLocationFile", fields: [locationFileId], references: [id])
+  locationFileId Int?           @unique
 
   @@map("files")
 }
 
+model LocationFile {
+  id           Int     @id @default(autoincrement())
+  idInFile     Int
+  name         String
+  text         String?
+  is_old_turns Boolean
+  azimut       String?
+
+  file         File?   @relation("FileToLocationFile")
+
+  nodes        NodeFile[]
+  edges        EdgeFile[]
+
+  @@map("location_files")
+}
+
+
+model NodeFile {
+  id               Int     @id @default(autoincrement())
+  idInFile         Int
+  nodeId           Int
+  name             String
+  coordinate_x     Float
+  coordinate_y     Float
+  text             String
+  text_broadcast   String
+  is_destination   Boolean
+  is_phantom       Boolean
+  is_turns_verbose Boolean
+
+  beacon           BeaconNode? @relation("BeaconNodeToNodeFile")
+
+  locationFile     LocationFile? @relation(fields: [locationId], references: [id])
+  locationId       Int? 
+
+  @@map("node_files")
+  @@index([locationId])
+}
+
+model BeaconNode {
+  id         Int     @id @default(autoincrement())
+  idInFile   Int
+  mac        String
+  name       String
+
+  nodeFile   NodeFile? @relation("BeaconNodeToNodeFile", fields: [nodeFileId], references: [id])
+  nodeFileId Int?      @unique
+
+  @@map("beacon_nodes")
+}
+
+model EdgeFile {
+  id             Int          @id @default(autoincrement())
+  start          Int
+  stop           Int
+  weight         Float
+  text           String
+
+  locationFile   LocationFile? @relation(fields: [locationId], references: [id])
+  locationId Int?          
+
+  @@map("edge_files")
+  @@index([locationId])
+}
+
 model User {
-  id       String @id @default(uuid())
-  email    String @unique
-  password String
-  name     String
+  id         String    @id @default(uuid())
+  email      String    @unique
+  password   String
+  name       String
 
-  avatarUrl String? @default("assets/avatar/default.jpg")
+  role       UserRole  @default(ADMIN)
 
-  role UserRole @default(ADMIN)
-
-  nodes Node[]
+  locations  Location[]
 
   @@map("users")
 }
 
-model Node {
-  id               Int     @id @default(autoincrement())
-  name             String
-  text             String
-  text_broadcast   String
-  location         Int?
+model Location {
+  id         Int      @id @default(autoincrement())
+  name       String
+  visibility Boolean
 
-  userId String?
-  user User? @relation(fields: [userId], references: [id])
+  nodes      Node[]
+
+  user       User?    @relation(fields: [userId], references: [id])
+  userId     String?  
+
+  @@map("locations")
+  @@index([userId])
+}
+
+model Node {
+  id             Int      @id @default(autoincrement())
+  name           String
+  text_broadcast String
+
+  location       Location? @relation(fields: [locationId], references: [id])
+  locationId     Int?      
 
   @@map("nodes")
-  @@index([userId])
+  @@index([locationId])
 }
 
 enum UserRole {

@@ -86,7 +86,7 @@ export interface JsonData {
 
 export interface newNode {
     id: number;
-    nodeId: any;
+    nodeId: number;
     name: string;
     coordinate_x: number;
     coordinate_y: number;

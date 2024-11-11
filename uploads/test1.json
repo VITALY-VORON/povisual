@@ -1,0 +1,1809 @@
+{
+  "id": 1,
+  "name": "Тестовая локация 1",
+  "text": null,
+  "nodes": [
+    {
+      "id": 1,
+      "nodeId": 1,
+      "name": "Name",
+      "coordinate_x": -82.41036224365234,
+      "coordinate_y": -6.773575067520142,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 2,
+      "nodeId": 2,
+      "name": "Name",
+      "coordinate_x": -205.99999999999994,
+      "coordinate_y": -29.31249999999998,
+      "text": "",
+      "beacon": { "id": 1, "mac": "D0:40:EF:6A:68:EF", "name": "Name" },
+      "text_broadcast": "Вы между аудиториями Г103 и Г101",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 3,
+      "nodeId": 3,
+      "name": "Name",
+      "coordinate_x": -264.9999999999999,
+      "coordinate_y": -6.312499999999982,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 4,
+      "nodeId": 4,
+      "name": "Name",
+      "coordinate_x": -146.99999999999994,
+      "coordinate_y": -6.312499999999993,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 5,
+      "nodeId": 5,
+      "name": "Name",
+      "coordinate_x": -18.650904178619385,
+      "coordinate_y": -40.020928502082825,
+      "text": "",
+      "beacon": { "id": 1, "mac": "F1:3F:96:86:66:ED", "name": "Name" },
+      "text_broadcast": "Вы между аудиторией Г104 и лестницей",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 6,
+      "nodeId": 6,
+      "name": "Name",
+      "coordinate_x": 303.1828308105469,
+      "coordinate_y": -27.765573501586914,
+      "text": "",
+      "beacon": { "id": 1, "mac": "CF:47:3D:E9:92:F4", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 7,
+      "nodeId": 7,
+      "name": "Name",
+      "coordinate_x": 247.31546257553805,
+      "coordinate_y": -6.447437431759596,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 8,
+      "nodeId": 8,
+      "name": "Name",
+      "coordinate_x": 27.57807858641354,
+      "coordinate_y": -10.12176090352989,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 9,
+      "nodeId": 9,
+      "name": "Name",
+      "coordinate_x": 140.49999999999994,
+      "coordinate_y": -33.57035827636717,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C5:7F:59:4C:45:A4", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г105",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 10,
+      "nodeId": 10,
+      "name": "Name",
+      "coordinate_x": 194.08251953124994,
+      "coordinate_y": -7.683050632476785,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 11,
+      "nodeId": 11,
+      "name": "Name",
+      "coordinate_x": 86.6280364990234,
+      "coordinate_y": -7.8198382854461315,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 12,
+      "nodeId": 12,
+      "name": "Name",
+      "coordinate_x": 378.22269709025045,
+      "coordinate_y": -6.750036544179238,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 13,
+      "nodeId": 13,
+      "name": "Name",
+      "coordinate_x": 405.8705444335936,
+      "coordinate_y": -51.74777507781981,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 14,
+      "nodeId": 14,
+      "name": "Name",
+      "coordinate_x": 478.5207519531248,
+      "coordinate_y": -51.673484802246065,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C0:19:28:40:DC:53", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 15,
+      "nodeId": 15,
+      "name": "Name",
+      "coordinate_x": 553.9999999999998,
+      "coordinate_y": -56.42415237426755,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 16,
+      "nodeId": 16,
+      "name": "Name",
+      "coordinate_x": 588.9999999999998,
+      "coordinate_y": -11.31249999999998,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 17,
+      "nodeId": 17,
+      "name": "Name",
+      "coordinate_x": 647.4792480468748,
+      "coordinate_y": -11.422341346740708,
+      "text": "",
+      "beacon": { "id": 1, "mac": "DC:51:4C:5D:C2:E5", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 18,
+      "nodeId": 18,
+      "name": "Name",
+      "coordinate_x": 700.9793090820309,
+      "coordinate_y": -11.632007598876935,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "Вы возле аудиторий Г111 и Г112",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 19,
+      "nodeId": 19,
+      "name": "Г-103",
+      "coordinate_x": -264.9748064752737,
+      "coordinate_y": -87.43411564303219,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-103" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 20,
+      "nodeId": 20,
+      "name": "Г-101",
+      "coordinate_x": -264.9128559836009,
+      "coordinate_y": 47.15569365491234,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-101" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 21,
+      "nodeId": 21,
+      "name": "Г-104",
+      "coordinate_x": -24.10269234139429,
+      "coordinate_y": -86.11460091857761,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-104" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 22,
+      "nodeId": 22,
+      "name": "Лестница в левом крыле",
+      "coordinate_x": -26.081955179214447,
+      "coordinate_y": 30.002089735284926,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Лестница в левом крыле" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 23,
+      "nodeId": 23,
+      "name": "Г-105",
+      "coordinate_x": 139.5162966916827,
+      "coordinate_y": 28.682580660930245,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-105" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 24,
+      "nodeId": 24,
+      "name": "Туалет в левом крыле",
+      "coordinate_x": 303.1352609292275,
+      "coordinate_y": 32.64110633657056,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Туалет в левом крыле" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 25,
+      "nodeId": 25,
+      "name": "Г-111",
+      "coordinate_x": 700.3071547394314,
+      "coordinate_y": -69.62074927488199,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-111" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 26,
+      "nodeId": 26,
+      "name": "Г-112",
+      "coordinate_x": 766.0391743200129,
+      "coordinate_y": -11.854947091127393,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-112" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 27,
+      "nodeId": 27,
+      "name": "Name",
+      "coordinate_x": 549.4556820300102,
+      "coordinate_y": 21.631275003985465,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 28,
+      "nodeId": 28,
+      "name": "Name",
+      "coordinate_x": 457.8685903080616,
+      "coordinate_y": 80.67070584767566,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C8:AD:90:28:3C:7F", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г115",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 29,
+      "nodeId": 29,
+      "name": "Name",
+      "coordinate_x": 480.6043331530571,
+      "coordinate_y": 135.9063070713171,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 30,
+      "nodeId": 30,
+      "name": "Name",
+      "coordinate_x": 480.53002829634283,
+      "coordinate_y": 193.8338173572061,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 31,
+      "nodeId": 31,
+      "name": "Name",
+      "coordinate_x": 457.2199475422007,
+      "coordinate_y": 255.54094424970606,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C7:F8:E2:01:21:30", "name": "Name" },
+      "text_broadcast": "Вы между аудиториями Г118 и Г116",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 32,
+      "nodeId": 32,
+      "name": "Name",
+      "coordinate_x": 481.95564606641204,
+      "coordinate_y": 316.0140565308116,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 33,
+      "nodeId": 33,
+      "name": "Name",
+      "coordinate_x": 483.2581304784551,
+      "coordinate_y": 547.4318473940439,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 34,
+      "nodeId": 34,
+      "name": "Г-123",
+      "coordinate_x": 385.3204891589164,
+      "coordinate_y": 602.6371468459815,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-123" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 35,
+      "nodeId": 35,
+      "name": "Name",
+      "coordinate_x": 482.3813023349336,
+      "coordinate_y": 372.68127498696697,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 36,
+      "nodeId": 36,
+      "name": "Name",
+      "coordinate_x": 454.9149297948613,
+      "coordinate_y": 428.62177087865996,
+      "text": "",
+      "beacon": { "id": 1, "mac": "F9:A7:A6:04", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г120",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 37,
+      "nodeId": 37,
+      "name": "Name",
+      "coordinate_x": 477.92287563352573,
+      "coordinate_y": 656.4285692605873,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 38,
+      "nodeId": 38,
+      "name": "Name",
+      "coordinate_x": 482.70075743158003,
+      "coordinate_y": 489.8145360625028,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 39,
+      "nodeId": 39,
+      "name": "Г-115",
+      "coordinate_x": 547.0691643281148,
+      "coordinate_y": 80.1944499790399,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-115" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 40,
+      "nodeId": 40,
+      "name": "Г-118",
+      "coordinate_x": 396.7388697472284,
+      "coordinate_y": 255.88919381024897,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-118" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 41,
+      "nodeId": 41,
+      "name": "Г-116",
+      "coordinate_x": 546.7736437462161,
+      "coordinate_y": 252.1014726281035,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-116" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 42,
+      "nodeId": 42,
+      "name": "Г-120",
+      "coordinate_x": 387.9453505518868,
+      "coordinate_y": 428.1360431434608,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-120" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 43,
+      "nodeId": 43,
+      "name": "Name",
+      "coordinate_x": 452.31416205848296,
+      "coordinate_y": 603.2797266748858,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C3:41:B5:B2:05:9D", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г123",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 44,
+      "nodeId": 44,
+      "name": "Name",
+      "coordinate_x": 400.2517018579014,
+      "coordinate_y": 705.4171820980341,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 45,
+      "nodeId": 45,
+      "name": "Name",
+      "coordinate_x": 488.1265193585775,
+      "coordinate_y": 705.0516120434507,
+      "text": "",
+      "beacon": { "id": 1, "mac": "C0:90:50:08:41:0E", "name": "Name" },
+      "text_broadcast": "Вы возле входа в левое крыло",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 46,
+      "nodeId": 46,
+      "name": "Name",
+      "coordinate_x": 574.0750520485506,
+      "coordinate_y": 704.9890967639976,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 47,
+      "nodeId": 47,
+      "name": "Name",
+      "coordinate_x": 576.1989506317545,
+      "coordinate_y": 757.377760199432,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 48,
+      "nodeId": 48,
+      "name": "Name",
+      "coordinate_x": 574.5710560684992,
+      "coordinate_y": 814.5676365645571,
+      "text": "",
+      "beacon": { "id": 1, "mac": "DC:C2:A4:A4:66:CA", "name": "Name" },
+      "text_broadcast": "Вы по центру первого этажа",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 49,
+      "nodeId": 49,
+      "name": "Name",
+      "coordinate_x": 576.3283246262703,
+      "coordinate_y": 863.4078576576904,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 50,
+      "nodeId": 50,
+      "name": "Name",
+      "coordinate_x": 574.8159033777785,
+      "coordinate_y": 926.7430827821536,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 51,
+      "nodeId": 51,
+      "name": "Name",
+      "coordinate_x": 493.7250669868163,
+      "coordinate_y": 926.7430217194453,
+      "text": "",
+      "beacon": { "id": 1, "mac": "EE:80:42:73:8F:FC", "name": "Name" },
+      "text_broadcast": "Вы возле входа в правое крыло",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 52,
+      "nodeId": 52,
+      "name": "Name",
+      "coordinate_x": 406.3878470597341,
+      "coordinate_y": 925.2272442004348,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 53,
+      "nodeId": 53,
+      "name": "Name",
+      "coordinate_x": 634.3993118936245,
+      "coordinate_y": 814.4010671941169,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 54,
+      "nodeId": 54,
+      "name": "Name",
+      "coordinate_x": 701.8993118936244,
+      "coordinate_y": 815.9010671941169,
+      "text": "",
+      "beacon": { "id": 1, "mac": "point232", "name": "Name" },
+      "text_broadcast": "Вы внутри корпуса Г перед вами турникет Справа от вас находится охрана, спросите о помощи",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 55,
+      "nodeId": 55,
+      "name": "Name",
+      "coordinate_x": 765.3993118936243,
+      "coordinate_y": 814.9010671941169,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 56,
+      "nodeId": 56,
+      "name": "Выход из корпуса",
+      "coordinate_x": 764.8993118936241,
+      "coordinate_y": 757.401067194117,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Выход из корпуса" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 57,
+      "nodeId": 57,
+      "name": "Name",
+      "coordinate_x": 481.9250646516365,
+      "coordinate_y": 973.2715477551751,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 58,
+      "nodeId": 58,
+      "name": "Name",
+      "coordinate_x": 471.58363385664035,
+      "coordinate_y": 1031.596603393858,
+      "text": "",
+      "beacon": { "id": 1, "mac": "E4:6E:CF:33:DA:29", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г125",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 59,
+      "nodeId": 59,
+      "name": "Name",
+      "coordinate_x": 491.6106235241739,
+      "coordinate_y": 1089.9390127153601,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 60,
+      "nodeId": 60,
+      "name": "Name",
+      "coordinate_x": 491.61060233208303,
+      "coordinate_y": 1146.524750815724,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 61,
+      "nodeId": 61,
+      "name": "Name",
+      "coordinate_x": 476.0661626086307,
+      "coordinate_y": 1206.3674405323306,
+      "text": "",
+      "beacon": { "id": 1, "mac": "E1:69:0A:55:C9:D4", "name": "Name" },
+      "text_broadcast": "Вы между аудиториями Г126 и Г127",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 62,
+      "nodeId": 62,
+      "name": "Name",
+      "coordinate_x": 492.91641885153996,
+      "coordinate_y": 1262.743327506102,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 63,
+      "nodeId": 63,
+      "name": "Name",
+      "coordinate_x": 493.35169732897293,
+      "coordinate_y": 1317.1526916084083,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 64,
+      "nodeId": 64,
+      "name": "Name",
+      "coordinate_x": 470.1961737520793,
+      "coordinate_y": 1374.6570847769456,
+      "text": "",
+      "beacon": { "id": 1, "mac": "E1:05:67:C3:93:61", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г131",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 65,
+      "nodeId": 65,
+      "name": "Name",
+      "coordinate_x": 495.52805241418866,
+      "coordinate_y": 1432.9359959510557,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 66,
+      "nodeId": 66,
+      "name": "Name",
+      "coordinate_x": 496.7154893648398,
+      "coordinate_y": 1488.0206678874629,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 67,
+      "nodeId": 67,
+      "name": "Name",
+      "coordinate_x": 465.53059855230265,
+      "coordinate_y": 1545.3642944544376,
+      "text": "",
+      "beacon": { "id": 1, "mac": "D5:6D:E1:33:A4:6A", "name": "Name" },
+      "text_broadcast": "Вы между аудиториями Г133 и Г132",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 68,
+      "nodeId": 68,
+      "name": "Name",
+      "coordinate_x": 494.4743761097766,
+      "coordinate_y": 1602.5627391839832,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 69,
+      "nodeId": 69,
+      "name": "Г-125",
+      "coordinate_x": 407.77705952660347,
+      "coordinate_y": 1033.2775300368535,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-125" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 70,
+      "nodeId": 70,
+      "name": "Г-126",
+      "coordinate_x": 404.5494136870201,
+      "coordinate_y": 1205.899937654507,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-126" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 71,
+      "nodeId": 71,
+      "name": "Г-127",
+      "coordinate_x": 569.76247374983,
+      "coordinate_y": 1205.1421250994028,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-127" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 72,
+      "nodeId": 72,
+      "name": "Г-131",
+      "coordinate_x": 407.5808468613689,
+      "coordinate_y": 1375.6602541663794,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-131" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 73,
+      "nodeId": 73,
+      "name": "Г-133",
+      "coordinate_x": 406.8229734364208,
+      "coordinate_y": 1545.4204943360903,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-133" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 74,
+      "nodeId": 74,
+      "name": "Г-132",
+      "coordinate_x": 543.2374489500389,
+      "coordinate_y": 1546.1783220604393,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-132" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 75,
+      "nodeId": 75,
+      "name": "Name",
+      "coordinate_x": 390.113705499101,
+      "coordinate_y": 1707.2564428653786,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 76,
+      "nodeId": 76,
+      "name": "Name",
+      "coordinate_x": 316.2211878332997,
+      "coordinate_y": 1697.3604782488117,
+      "text": "",
+      "beacon": { "id": 1, "mac": "point213", "name": "Name" },
+      "text_broadcast": "Вы между аудиторией Г137 и туалетом",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 77,
+      "nodeId": 77,
+      "name": "Name",
+      "coordinate_x": 253.54461178262704,
+      "coordinate_y": 1713.854104489361,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 78,
+      "nodeId": 78,
+      "name": "Name",
+      "coordinate_x": 197.40501918064137,
+      "coordinate_y": 1713.5300073284686,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 79,
+      "nodeId": 79,
+      "name": "Name",
+      "coordinate_x": 138.30778963947046,
+      "coordinate_y": 1696.0928736496146,
+      "text": "",
+      "beacon": { "id": 1, "mac": "point191", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г139",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 80,
+      "nodeId": 80,
+      "name": "Name",
+      "coordinate_x": 77.8077896394706,
+      "coordinate_y": 1716.0928736496146,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 81,
+      "nodeId": 81,
+      "name": "Name",
+      "coordinate_x": 9.807789639470798,
+      "coordinate_y": 1717.0928736496146,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 82,
+      "nodeId": 82,
+      "name": "Name",
+      "coordinate_x": -41.192210360529046,
+      "coordinate_y": 1692.5928736496146,
+      "text": "",
+      "beacon": { "id": 1, "mac": "point183", "name": "Name" },
+      "text_broadcast": "Вы возле лестницы в правом крыле",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 83,
+      "nodeId": 83,
+      "name": "Name",
+      "coordinate_x": -95.69221036052895,
+      "coordinate_y": 1717.5928736496146,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 84,
+      "nodeId": 84,
+      "name": "Лестница в правом крыле",
+      "coordinate_x": -95.94372194765423,
+      "coordinate_y": 1650.4086093373026,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Лестница в правом крыле" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 85,
+      "nodeId": 85,
+      "name": "Г-139",
+      "coordinate_x": 138.50935298177103,
+      "coordinate_y": 1636.089095284669,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-139" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 86,
+      "nodeId": 86,
+      "name": "Туалет в правом крыле",
+      "coordinate_x": 319.5199983005955,
+      "coordinate_y": 1641.2810907039916,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Туалет в правом крыле" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 87,
+      "nodeId": 87,
+      "name": "Г-137",
+      "coordinate_x": 314.00390098797226,
+      "coordinate_y": 1748.2472462036567,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-137" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 88,
+      "nodeId": 88,
+      "name": "Name",
+      "coordinate_x": 434.22541227172826,
+      "coordinate_y": 1704.6011266560354,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 89,
+      "nodeId": 89,
+      "name": "Name",
+      "coordinate_x": 496.8532872220442,
+      "coordinate_y": 1653.8629546034203,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 90,
+      "nodeId": 90,
+      "name": "Name",
+      "coordinate_x": 499.7250803414869,
+      "coordinate_y": 1702.6824171269743,
+      "text": "",
+      "beacon": { "id": 1, "mac": "CD:AB:F5:E9:6D:67", "name": "Name" },
+      "text_broadcast": "Вы возле аудитории Г135",
+      "is_destination": false,
+      "is_phantom": false,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 91,
+      "nodeId": 91,
+      "name": "Г-135",
+      "coordinate_x": 501.5939860778145,
+      "coordinate_y": 1749.7887906324306,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Г-135" },
+      "text_broadcast": "",
+      "is_destination": true,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    },
+    {
+      "id": 92,
+      "nodeId": 92,
+      "name": "Name",
+      "coordinate_x": 478.8867991189083,
+      "coordinate_y": -10.794723816263087,
+      "text": "",
+      "beacon": { "id": 1, "mac": "PHANTOM#", "name": "Name" },
+      "text_broadcast": "",
+      "is_destination": false,
+      "is_phantom": true,
+      "is_turns_verbose": false
+    }
+  ],
+  "edges": [
+    {
+      "start": 2,
+      "stop": 3,
+      "weight": 63.3245607959502,
+      "text": "Слева от вас аудитория Г-101, справа Г-103"
+    },
+    { "start": 3, "stop": 2, "weight": 63.3245607959502, "text": "" },
+    {
+      "start": 2,
+      "stop": 4,
+      "weight": 63.32456079595025,
+      "text": "Слева от вас аудитория Г-103, справа Г-101"
+    },
+    { "start": 4, "stop": 2, "weight": 63.32456079595025, "text": "" },
+    { "start": 1, "stop": 5, "weight": 61.922254926374585, "text": "" },
+    {
+      "start": 5,
+      "stop": 1,
+      "weight": 61.922254926374585,
+      "text": "Справа от вас аудитория Г-104, слева лестница"
+    },
+    {
+      "start": 1,
+      "stop": 4,
+      "weight": 64.5912834344859,
+      "text": "Сделайте 6 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 4,
+      "stop": 1,
+      "weight": 64.5912834344859,
+      "text": "Сделайте 6 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 8, "stop": 5, "weight": 51.51929412583096, "text": "" },
+    {
+      "start": 5,
+      "stop": 8,
+      "weight": 51.51929412583096,
+      "text": "слева от вас аудитория Г-104, справа лестница"
+    },
+    {
+      "start": 8,
+      "stop": 11,
+      "weight": 73.36500794101997,
+      "text": "Сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 11,
+      "stop": 8,
+      "weight": 73.36500794101997,
+      "text": "Сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 11, "stop": 9, "weight": 59.38704901768293, "text": "" },
+    { "start": 9, "stop": 11, "weight": 59.38704901768293, "text": "слева от вас аудитория Г-105" },
+    {
+      "start": 10,
+      "stop": 7,
+      "weight": 58.43741129662709,
+      "text": "Сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 7,
+      "stop": 10,
+      "weight": 58.43741129662709,
+      "text": "Сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 10, "stop": 9, "weight": 62.7087167543004, "text": "" },
+    { "start": 9, "stop": 10, "weight": 62.7087167543004, "text": "Справа от вас аудитория Г-105" },
+    { "start": 6, "stop": 7, "weight": 53.1709097454927, "text": "Слева  от вас туалет" },
+    { "start": 7, "stop": 6, "weight": 53.1709097454927, "text": "" },
+    { "start": 6, "stop": 12, "weight": 57.0654711556283, "text": "Справа от вас туалет" },
+    { "start": 12, "stop": 6, "weight": 57.0654711556283, "text": "" },
+    {
+      "start": 13,
+      "stop": 12,
+      "weight": 69.92947123411764,
+      "text": "Поверните налево и Сделайте 6 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 12,
+      "stop": 13,
+      "weight": 69.92947123411764,
+      "text": "Сделайте 6 шагов вперед и поверните направо"
+    },
+    {
+      "start": 15,
+      "stop": 16,
+      "weight": 58.50010654907117,
+      "text": "поверните направо и Сделайте 6 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 16,
+      "stop": 15,
+      "weight": 58.50010654907117,
+      "text": "Сделайте 6 шагов вперед и поверните налево"
+    },
+    {
+      "start": 17,
+      "stop": 16,
+      "weight": 62.40592920548496,
+      "text": "Сзади вас аудитория Г-112, справа Г-111"
+    },
+    { "start": 16, "stop": 17, "weight": 62.40592920548496, "text": "" },
+    {
+      "start": 17,
+      "stop": 18,
+      "weight": 60.15396911260294,
+      "text": "Слева от вас аудитория Г-111, спереди Г-112"
+    },
+    { "start": 18, "stop": 17, "weight": 60.15396911260294, "text": "" },
+    { "start": 14, "stop": 15, "weight": 56.29990983597843, "text": "" },
+    { "start": 15, "stop": 14, "weight": 56.29990983597843, "text": "" },
+    { "start": 14, "stop": 13, "weight": 63.66830831735414, "text": "" },
+    { "start": 13, "stop": 14, "weight": 63.66830831735414, "text": "" },
+    { "start": 18, "stop": 25, "weight": 58.66306628727088, "text": "" },
+    { "start": 18, "stop": 26, "weight": 42.31404522469581, "text": "" },
+    { "start": 6, "stop": 24, "weight": 64.28746229966123, "text": "поверните налево" },
+    { "start": 9, "stop": 23, "weight": 60.19801129123329, "text": "поверните налево" },
+    { "start": 5, "stop": 22, "weight": 62.47948721923533, "text": "Поверните налево" },
+    { "start": 5, "stop": 21, "weight": 53.83554438848197, "text": "Поверните направо" },
+    {
+      "start": 28,
+      "stop": 27,
+      "weight": 41.92750190387836,
+      "text": "Справа от вас аудитория Г-115"
+    },
+    { "start": 27, "stop": 28, "weight": 41.92750190387836, "text": "" },
+    { "start": 28, "stop": 39, "weight": 68.93149003926702, "text": "Поверните направо" },
+    {
+      "start": 28,
+      "stop": 29,
+      "weight": 41.93141443987775,
+      "text": "Слева от вас аудитория Г-115"
+    },
+    { "start": 29, "stop": 28, "weight": 41.93141443987775, "text": "" },
+    {
+      "start": 36,
+      "stop": 35,
+      "weight": 65.13260365506669,
+      "text": "Слева от вас аудитория Г-120"
+    },
+    { "start": 35, "stop": 36, "weight": 65.13260365506669, "text": "" },
+    {
+      "start": 36,
+      "stop": 38,
+      "weight": 60.05073558991663,
+      "text": "Справа от вас аудитория Г-120"
+    },
+    { "start": 38, "stop": 36, "weight": 60.05073558991663, "text": "" },
+    { "start": 32, "stop": 31, "weight": 52.2318502169591, "text": "" },
+    {
+      "start": 31,
+      "stop": 32,
+      "weight": 52.2318502169591,
+      "text": "Справа от вас аудитория Г-118, слева Г-116"
+    },
+    {
+      "start": 32,
+      "stop": 35,
+      "weight": 62.41216973474354,
+      "text": "Сделайте 12 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 35,
+      "stop": 32,
+      "weight": 62.41216973474354,
+      "text": "Сделайте 12 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 30,
+      "stop": 29,
+      "weight": 45.87875070374244,
+      "text": "Сделайте 7 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 29,
+      "stop": 30,
+      "weight": 45.87875070374244,
+      "text": "Сделайте 7 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 30, "stop": 31, "weight": 48.133497182144595, "text": "" },
+    {
+      "start": 31,
+      "stop": 30,
+      "weight": 48.133497182144595,
+      "text": "Справа от вас аудитория Г-116, слева Г-118"
+    },
+    {
+      "start": 38,
+      "stop": 33,
+      "weight": 57.62000720052989,
+      "text": "Сделайте 9 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 33,
+      "stop": 38,
+      "weight": 57.62000720052989,
+      "text": "Сделайте 9 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 43,
+      "stop": 33,
+      "weight": 69.10285654239898,
+      "text": "Слева от вас аудитория Г-123"
+    },
+    { "start": 33, "stop": 43, "weight": 69.10285654239898, "text": "" },
+    {
+      "start": 43,
+      "stop": 37,
+      "weight": 69.61752229816774,
+      "text": "Справа от вас аудитория Г-120"
+    },
+    { "start": 37, "stop": 43, "weight": 69.61752229816774, "text": "" },
+    {
+      "start": 31,
+      "stop": 41,
+      "weight": 77.65165892976165,
+      "text": "Поверните направо если вы пришли от Г120, если от г115 то налево"
+    },
+    {
+      "start": 31,
+      "stop": 40,
+      "weight": 91.91758254797833,
+      "text": "Поверните налево если вы пришли от Г120, если от г115 то направо"
+    },
+    {
+      "start": 36,
+      "stop": 42,
+      "weight": 94.47698205694682,
+      "text": "Поверните направо если вы пришли от Г128, если от г123 то налево"
+    },
+    {
+      "start": 43,
+      "stop": 34,
+      "weight": 94.48196204946457,
+      "text": "Поверните направо если вы пришли от Г120, если от центра то налево"
+    },
+    { "start": 45, "stop": 46, "weight": 68.98634818017733, "text": "" },
+    { "start": 46, "stop": 45, "weight": 68.98634818017733, "text": "" },
+    { "start": 45, "stop": 44, "weight": 63.148545170884226, "text": "" },
+    { "start": 44, "stop": 45, "weight": 63.148545170884226, "text": "" },
+    {
+      "start": 44,
+      "stop": 37,
+      "weight": 70.34880160673404,
+      "text": "Сделайте два шага по лестнице из двух ступеней, после чего сделайте еще два шага и откройте дверь на себя и сделайте еще 9 шагов, осторожно, слева от вас будет небольшое углубление в полу.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 37,
+      "stop": 44,
+      "weight": 70.34880160673404,
+      "text": "Сделайте 9 шагов вперед после чего откройте дверь от себя и сделайте еще два шага затем спуститесь по лестнице из двух ступеней.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 48,
+      "stop": 47,
+      "weight": 43.499999999999886,
+      "text": "Перед вами лестница. Сзади вас выход из корпуса с турникетами"
+    },
+    { "start": 47, "stop": 48, "weight": 43.499999999999886, "text": "" },
+    {
+      "start": 48,
+      "stop": 49,
+      "weight": 45.49999999999977,
+      "text": "Перед вами лестница. Сзади вас выход из корпуса с турникетами"
+    },
+    { "start": 49, "stop": 48, "weight": 45.49999999999977, "text": "" },
+    {
+      "start": 47,
+      "stop": 46,
+      "weight": 47.359684718339416,
+      "text": "Поверните направо и Сделайте 14 шагов.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 46,
+      "stop": 47,
+      "weight": 47.359684718339416,
+      "text": "Сделайте 14 шагов и поверните налево.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 49,
+      "stop": 50,
+      "weight": 54.657607321679,
+      "text": "поверните налево и Сделайте 14 шагов.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 50,
+      "stop": 49,
+      "weight": 54.657607321679,
+      "text": "Сделайте 14 шагов и поверните направо.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 51, "stop": 52, "weight": 80.33655313854356, "text": "" },
+    { "start": 52, "stop": 51, "weight": 80.33655313854356, "text": "" },
+    { "start": 51, "stop": 50, "weight": 81.094377850273, "text": "" },
+    { "start": 50, "stop": 51, "weight": 81.094377850273, "text": "" },
+    {
+      "start": 51,
+      "stop": 46,
+      "weight": 235.86208540705996,
+      "text": "Сделайте 28 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 45,
+      "stop": 50,
+      "weight": 238.0381429517497,
+      "text": "Сделайте 28 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 53,
+      "stop": 48,
+      "weight": 70.43265669763751,
+      "text": "Пройдите три шага до турникета и два шага после него. Попросите помощи что бы пойти. В вузе действует система пропусков. Осторожно, в конце маршрута уже начинается лестница, Не вспоткнитесь! Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 48,
+      "stop": 53,
+      "weight": 70.43265669763751,
+      "text": "пройдите два шага до турникета и еще 3 шага после него"
+    },
+    { "start": 53, "stop": 54, "weight": 77.50645134438798, "text": "" },
+    { "start": 54, "stop": 53, "weight": 77.50645134438798, "text": "" },
+    { "start": 54, "stop": 55, "weight": 71.00176054155266, "text": "" },
+    { "start": 55, "stop": 54, "weight": 71.00176054155266, "text": "" },
+    {
+      "start": 55,
+      "stop": 56,
+      "weight": 47.13013897709181,
+      "text": "Вы прямо перед выходом из корпуса"
+    },
+    { "start": 56, "stop": 55, "weight": 47.13013897709181, "text": "" },
+    {
+      "start": 57,
+      "stop": 52,
+      "weight": 100.49737517603108,
+      "text": "Откройте дверь от себя и сделайте 2 шага вперед, далее спуститесь по лестнице из двух ступеней.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 52,
+      "stop": 57,
+      "weight": 100.49737517603108,
+      "text": "Сделайте два шага по лестнице из двух ступеней, после чего сделайте еще два шага и откройте дверь на себя.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 58,
+      "stop": 57,
+      "weight": 44.398053685568364,
+      "text": "Слева от вас аудитория Г-125"
+    },
+    { "start": 57, "stop": 58, "weight": 44.398053685568364, "text": "" },
+    {
+      "start": 58,
+      "stop": 59,
+      "weight": 49.99418162457726,
+      "text": "Справа от вас аудитория Г-120"
+    },
+    { "start": 59, "stop": 58, "weight": 49.99418162457726, "text": "" },
+    {
+      "start": 60,
+      "stop": 59,
+      "weight": 56.58573810036784,
+      "text": "Сделайте 5 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 59,
+      "stop": 60,
+      "weight": 56.58573810036784,
+      "text": "Сделайте 5 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 60, "stop": 61, "weight": 57.036106662954985, "text": "" },
+    {
+      "start": 61,
+      "stop": 60,
+      "weight": 57.036106662954985,
+      "text": "Слева от вас аудитория Г-126, справа Г-127"
+    },
+    {
+      "start": 61,
+      "stop": 62,
+      "weight": 53.752525211657336,
+      "text": "Слева от вас аудитория Г-127, справа Г-126"
+    },
+    { "start": 62, "stop": 61, "weight": 53.752525211657336, "text": "" },
+    {
+      "start": 63,
+      "stop": 62,
+      "weight": 54.41110520261689,
+      "text": "Сделайте 15 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 62,
+      "stop": 63,
+      "weight": 54.41110520261689,
+      "text": "Сделайте 15 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 63, "stop": 64, "weight": 58.82021397103297, "text": "" },
+    {
+      "start": 64,
+      "stop": 63,
+      "weight": 58.82021397103297,
+      "text": "Слева от вас аудитория Г-131"
+    },
+    {
+      "start": 66,
+      "stop": 65,
+      "weight": 55.09746898772553,
+      "text": "сделайте 9 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 65,
+      "stop": 66,
+      "weight": 55.09746898772553,
+      "text": "сделайте 9 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 68, "stop": 67, "weight": 49.68997671825709, "text": "" },
+    {
+      "start": 67,
+      "stop": 68,
+      "weight": 49.68997671825709,
+      "text": "Слева от вас аудитория Г-132, справа Г-133"
+    },
+    {
+      "start": 67,
+      "stop": 73,
+      "weight": 58.70765201550493,
+      "text": "Поверните направо если вы пришли от Г131, если от Г135 то налево"
+    },
+    {
+      "start": 67,
+      "stop": 74,
+      "weight": 77.71111400359347,
+      "text": "Поверните направо если вы пришли от Г135, если от г131 то налево"
+    },
+    {
+      "start": 64,
+      "stop": 72,
+      "weight": 62.61734856303787,
+      "text": "Поверните направо если вы пришли от Г126, если от г133 то налево"
+    },
+    {
+      "start": 61,
+      "stop": 71,
+      "weight": 93.20436582176498,
+      "text": "Поверните направо если вы пришли от Г131, если от г125 то налево"
+    },
+    {
+      "start": 61,
+      "stop": 70,
+      "weight": 72.01826632305914,
+      "text": "Поверните направо если вы пришли от Г125, если от г131 то налево"
+    },
+    {
+      "start": 58,
+      "stop": 69,
+      "weight": 62.528579185523114,
+      "text": "Поверните направо если вы пришли от центра, если от г126 то налево"
+    },
+    { "start": 66, "stop": 67, "weight": 65.27471886452302, "text": "" },
+    {
+      "start": 67,
+      "stop": 66,
+      "weight": 65.27471886452302,
+      "text": "Слева от вас аудитория Г-133, справа Г-132"
+    },
+    {
+      "start": 76,
+      "stop": 77,
+      "weight": 82.90054282090057,
+      "text": "Слева от вас аудитория Г-137, справа туалет"
+    },
+    { "start": 77, "stop": 76, "weight": 82.90054282090057, "text": "" },
+    {
+      "start": 76,
+      "stop": 75,
+      "weight": 112.78741064498261,
+      "text": "справа от вас аудитория Г-137, слева туалет"
+    },
+    { "start": 75, "stop": 76, "weight": 112.78741064498261, "text": "" },
+    {
+      "start": 78,
+      "stop": 77,
+      "weight": 59.656710671137574,
+      "text": "сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 77,
+      "stop": 78,
+      "weight": 59.656710671137574,
+      "text": "сделайте 10 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 79, "stop": 80, "weight": 63.720091023161466, "text": "Справа от вас лестница" },
+    { "start": 80, "stop": 79, "weight": 63.720091023161466, "text": "" },
+    {
+      "start": 81,
+      "stop": 80,
+      "weight": 62.50799948806532,
+      "text": "сделайте 11 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 80,
+      "stop": 81,
+      "weight": 62.50799948806532,
+      "text": "сделайте 11 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 81, "stop": 82, "weight": 51.88448708429125, "text": "" },
+    { "start": 82, "stop": 81, "weight": 51.88448708429125, "text": "Слева от вас лестница" },
+    { "start": 82, "stop": 83, "weight": 52.99528280894433, "text": "Справа от вас лестница" },
+    { "start": 83, "stop": 82, "weight": 52.99528280894433, "text": "" },
+    {
+      "start": 76,
+      "stop": 86,
+      "weight": 55.41855844253298,
+      "text": "Поверните направо если вы пришли от Г135, если от г139 то налево"
+    },
+    {
+      "start": 76,
+      "stop": 87,
+      "weight": 52.97506725355428,
+      "text": "Поверните направо если вы пришли от Г139, если от г135 то налево"
+    },
+    {
+      "start": 79,
+      "stop": 85,
+      "weight": 59.41193381980276,
+      "text": "Поверните направо если вы пришли от туалета, если от лестницыто налево"
+    },
+    { "start": 89, "stop": 90, "weight": 71.63494382271438, "text": "" },
+    {
+      "start": 90,
+      "stop": 89,
+      "weight": 71.63494382271438,
+      "text": "Справа от вас аудитория Г135"
+    },
+    {
+      "start": 88,
+      "stop": 75,
+      "weight": 63.789590203035175,
+      "text": "поверните направо и сделайте 7 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 75,
+      "stop": 88,
+      "weight": 63.789590203035175,
+      "text": "сделайте 7 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 88, "stop": 90, "weight": 81.05657151152005, "text": "" },
+    { "start": 90, "stop": 88, "weight": 81.05657151152005, "text": "Перед вами аудитория Г135" },
+    {
+      "start": 89,
+      "stop": 68,
+      "weight": 46.094994886706985,
+      "text": "поверните налево сделайте 13 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 68,
+      "stop": 89,
+      "weight": 46.094994886706985,
+      "text": "сделайте 13 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 90,
+      "stop": 91,
+      "weight": 47.2632913832155,
+      "text": "Поверните направо если вы пришли от туалета, если от Г133 то поворачивать не надо"
+    },
+    { "start": 83, "stop": 84, "weight": 67.18473509112815, "text": "" },
+    { "start": 92, "stop": 12, "weight": 138.18803450693946, "text": "" },
+    {
+      "start": 12,
+      "stop": 92,
+      "weight": 138.18803450693946,
+      "text": "Сделайте 12 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 92, "stop": 16, "weight": 119.89917720495231, "text": "" },
+    {
+      "start": 16,
+      "stop": 92,
+      "weight": 119.89917720495231,
+      "text": "Сделайте 12 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    { "start": 3, "stop": 19, "weight": 81.12161955514408, "text": "" },
+    { "start": 3, "stop": 20, "weight": 53.46826466979082, "text": "" },
+    { "start": 79, "stop": 78, "weight": 61.616038256091, "text": "Слева от вас аудитория Г-139" },
+    { "start": 78, "stop": 79, "weight": 61.616038256091, "text": "" },
+    { "start": 65, "stop": 64, "weight": 63.546326126627115, "text": "" },
+    {
+      "start": 64,
+      "stop": 65,
+      "weight": 63.546326126627115,
+      "text": "Справа от вас аудитория Г131"
+    },
+    {
+      "start": 27,
+      "stop": 14,
+      "weight": 97.51390342435563,
+      "text": "Сделайте 17 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    },
+    {
+      "start": 14,
+      "stop": 27,
+      "weight": 97.51390342435563,
+      "text": "Сделайте 17 шагов вперед.  Остановитесь и ждите дальнейших указаний."
+    }
+  ],
+  "is_old_turns": true,
+  "azimut": null
+}
